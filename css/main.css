@@ -50,7 +50,7 @@ nav{
     list-style-type: none;
     justify-content: space-around;
     /*!*height:60px;*!*/
-    /*align-items: center;*/
+    align-items: center;
     /*margin: 0;*/
     /*width: 100%;*/
 }
