@@ -18,41 +18,62 @@ body {
     justify-content: space-around;
 }
 
-.logo {
-    width: 25%;
-}
+/*.logo {*/
+    /*width: 25%;*/
+/*}*/
 
 
 
 /*************NAV STYLES********************/
 
 nav{
-    width: 90%;
+    width: 80%;
     background-color: white;
     border-bottom: 1px slategrey solid;
     margin: 0 auto;
-    padding: 20px 10px 20px 0;
+    /*padding: 20px 10px 20px 0;*/
 }
 
-#last-nav{
-    padding-right: 40px;
+#logo {
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 0;
+    width: 50%;
 }
+
+
 
 .navbar-flex-container {
     display: flex;
+    /*flex-shrink: 0;*/
     list-style-type: none;
-    justify-content: flex-start;
-    /*height:60px;*/
-    align-items: center;
-    margin: 0;
+    justify-content: space-around;
+    /*!*height:60px;*!*/
+    /*align-items: center;*/
+    /*margin: 0;*/
+    /*width: 100%;*/
 }
 
-.item-1 {
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
+.navbar-child {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin-right: 1em;
 
 }
+
+/*.item-1 {*/
+    /*display:flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+
+/*}*/
+
+/*.logo {*/
+    /*width: 25%;*/
+/*}*/
 /*nav a:visited, a:link{*/
     /*text-decoration: none;*/
     /*color: black;*/
@@ -134,7 +155,7 @@ footer h6 {
 }
 
 #map {
-    width: 60%;
+    width: 55%;
     height: 400px;
     background-color: grey;
     border: none;
