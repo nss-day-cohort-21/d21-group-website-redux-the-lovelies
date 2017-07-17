@@ -157,3 +157,25 @@ footer h6 {
   max-height: 500px;
   width: 100%;
 }
+
+.ml-help-button-div {
+  display: flex;
+  width: 100%;
+  align-content: center;
+}
+
+.ml-main-container {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+
+#ml-help-button {
+  height: 100px;
+  width: 100px;
+  font-size: 2em;
+  border: none;
+  border-radius: 5%;
+  background: rgb(255, 0, 0);
+  cursor: pointer;
+}
