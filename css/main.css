@@ -178,3 +178,36 @@ footer h6 {
   max-height: 500px;
   width: 100%;
 }
+
+/******** CARD STYLING ********/
+
+.card-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap;
+	margin: 1em auto;
+}
+
+.card {
+	max-width: 30%;
+	min-width: 300px;
+	max-height: 400px;
+	background-color: pink;
+	padding-bottom: .3em;
+	border-radius: 10px;
+	overflow: scroll;
+	box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.75);
+	margin: 1em auto;
+    position:relative
+}
+
+.card-images {
+    max-width: 100%;
+    height: auto;
+    max-height: 40%;
+}
+
+
+}
