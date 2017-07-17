@@ -55,10 +55,10 @@ nav{
     /*width: 100%;*/
 }
 
-.navbar-child {
-    display: flex;
-    justify-content: space-around;
-}
+/*.navbar-child {*/
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+/*}*/
 
 nav ul li {
     margin-right: 1em;
@@ -95,7 +95,7 @@ nav a {
 }
 
 #current {
-    background-color: #6cc2a3;
+    background-color: #FFC0CB;
     border-radius: 15px;
     padding: 4px 10px;
 }
