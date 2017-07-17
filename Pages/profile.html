@@ -30,9 +30,15 @@
 	</div>
 
 	<main class="main-container">
-
+		
+		<form>
 				<fieldset>	
-					<legend>Personal Information</legend>
+				<legend>Personal Information</legend>
+
+				<div class="profileFlexContainer">
+
+					<div class="profileDivLeft">
+
 					<label for="firstName">First Name:</label><br>
 					<input type="text" name="firstName"  id="firstName">
 					<br>
@@ -56,6 +62,10 @@
 					<label for="zipCode">Zip:</label><br>             <!-- limit chars to five -->
 					<input type="text" maxlength="5" name="zipCode"  id="zipCode">
 					<br>
+
+					</div>
+
+					<div class="profileDivRight">
 						
 					<label for="DOB">Date of Birth:</label><br>		<!-- date of birth -->
 					<input type="date" name="DOB"  id="DOB">
@@ -80,13 +90,19 @@
 					<input type="url" name="photoLink"  id="photoLink">
 					<br>
 
+					</div>
 
+				</div>
 
 				</fieldset>
 
 
 				<fieldset>
-					<legend>About You</legend>
+				<legend>About You</legend>
+
+				<div class="profileFlexContainer">
+
+					<div class="profileDivLeft">
 
 					<label for="clientLikes">Likes:</label><br>
 					<textarea name="clientLikes"  id="clientLikes" rows="5" cols="30"></textarea>
@@ -97,6 +113,10 @@
 					<textarea name="clientDisLikes"  id="clientDisLikes" rows="5" cols="30"></textarea>
 					<br>
 					<br>
+
+					</div>
+
+					<div class="profileDivRight">
 
 					<label for="clientInto">I'm Into:</label><br>
 					<input type="checkbox" name="condition1" value="walksOnBeach"> Long Walks on the Beach<br>
@@ -114,11 +134,17 @@
 					<input type="radio" name="mostLike" value="Liger"> Liger<br>
 					<br>
 
+					</div>
+
 				</fieldset>
 
 				<fieldset>
-					<legend>What Are You Looking For?</legend>
+				<legend>What Are You Looking For?</legend>
 					
+					<div class="profileFlexContainer">
+
+					<div class="profileDivLeft">
+
 					<br>
 					<label for="seekingGender">Gender You Are Seeking:</label><br>
 					<input type="radio" name="seekingGender" value="Female"> Female<br>
@@ -135,6 +161,10 @@
 					<input type="checkbox" name="condition1" value="for45to55"> 45 to 55<br>
 					<input type="checkbox" name="condition1" value="for55+">  55+<br>
 
+					</div>
+
+					<div class="profileDivRight">
+
 					<br>
 					<label for="seekingLikesKeywords">Likes Keywords to Match:</label><br>
 					<textarea name="seekingLikesKeywords"  id="seekingLikesKeywords" rows="5" cols="30"></textarea>
@@ -147,11 +177,17 @@
 					<br>
 					<br>
 
-				</fieldset>
+					</div>
 
+				</fieldset>
+	
+				<div>
 					<br>
 					<input type="submit" value="Submit">
 					<br>
+				</div>
+
+		</form>		
 
 
 					
