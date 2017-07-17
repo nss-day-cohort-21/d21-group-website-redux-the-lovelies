@@ -13,7 +13,7 @@ let datingList = [
     },
     {
         image: "img/Urkel.jpg",
-        name: " Steven Urk Man Urkel",
+        name: " Steven \"Urk Man\" Urkel",
         age: " 19",
         description:" Did I do that?"
     },
@@ -46,8 +46,8 @@ for (let i = 0; i < datingList.length; i++) {
 
     let datingCard = `<article class="card"><img src="${datingImage}" class="card-images">
 	 <header class="card-header"><h1>Name:${datingName}</h1><h2>Age:${datingAge}</h2></header>
-	 <section class="card-paragraph"><p>About Me:${datingDesc}</p></section><br>
-	 <button class="ProfBtn"><a href="#" target="_blank">Check Me Out!</a></button>
+	 <section class="card-paragraph"><p><b>About Me:</b>${datingDesc}</p></section><br>
+	 <button class="dateBtn"><a href="#" target="_blank">Check Me Out!</a></button>
 	 </article>`;
 
 	
