@@ -103,3 +103,20 @@ footer h6 {
 
 #pinterest{
     padding-top: 15px;
+}
+
+/****** CSS MICHAEL ******/
+.ml-contentContainer {
+  margin: 0;
+  text-align: center;
+}
+
+.ml-contentContainer p {
+  margin: 1em 6em;
+  text-align: justify;
+}
+
+.ml-banner-pic img {
+  max-height: 500px;
+  width: 100%;
+}
