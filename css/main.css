@@ -320,6 +320,7 @@ fieldset {
     display: flex;
     -webkit-flex-wrap:wrap;
     flex-wrap:wrap;
+    margin: 20px;
 }
 
 .profileDivLeft {
@@ -334,5 +335,5 @@ fieldset {
 
 input[type=submit] {
      font-size: 2em;
-     margin: 10px 40% 0 40%;
+     margin: 20px 40% 0 40%;
 }
