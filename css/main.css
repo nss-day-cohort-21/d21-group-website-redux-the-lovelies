@@ -206,8 +206,27 @@ footer h6 {
 
 .card-images {
     max-width: 100%;
-    height: auto;
-    max-height: 40%;
+    border-radius: 100%;
+    border: 5px solid black;
+}
+
+.dateBtn {
+    float: right; 
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    background-color: gray;
+}
+
+.dateBtn a {
+    text-decoration: none;
+}
+.card-header {
+    margin: 1em;
+}
+
+.card-paragraph {
+     margin: 1em;
 }
 
 
