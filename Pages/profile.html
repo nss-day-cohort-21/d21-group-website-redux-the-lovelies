@@ -1,10 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Lowered Expectations</title>
+	    <link rel="stylesheet" href="../main.css">
+	    <link href="https://fonts.googleapis.com/css?family=Roboto|Shrikhand" rel="stylesheet">
 
-</body>
+
+	</head>
+
+	<body>
+	<header>
+	    <nav>
+	        <a href=""><img src="" alt=""></a>
+	        <ul class="navbar-flex-container">
+	            <li class="item-1"><a href="index.html"></a>Home</li>
+	            <li class="navbar-child"><a href="pages/about.html"></a>About</li>
+	            <li class="navbar-child"><a href="pages/profile.html"></a>Profile</li>
+	            <li class="navbar-child"><a href="pages/contact.html"></a>Contact</li>
+	            <li class="navbar-child"><a href="pages/warning.html"></a>Help Me!</li>
+	        </ul>
+
+
+	    </nav>
+	</header>
+
+	<div>
+	    <img src="" alt="">
+	</div>
+
+	<main class="main-container">
+
+				<fieldset>	
+					<legend>Personal Information</legend>
+					<label for="firstName">First Name:</label><br>
+					<input type="text" name="firstName"  id="firstName">
+					<br>
+
+					<label for="middleName">Middle Name:</label><br>
+					<input type="text" name="middleName" id="middleName">
+					<br>
+
+					<label for="lastName">Last Name:</label><br>
+					<input type="text" name="lastName"  id="lastName">
+					<br>
+
+					<label for="City">City:</label><br>
+					<input type="text" name="City"  id="City">
+					<br>
+
+					<label for="State">State:</label><br>             <!-- limit chars to two -->
+					<input type="text" maxlength="2" name="State"  id="State">
+					<br>
+
+					<label for="zipCode">Zip:</label><br>             <!-- limit chars to five -->
+					<input type="text" maxlength="5" name="zipCode"  id="zipCode">
+					<br>
+						
+					<label for="DOB">Date of Birth:</label><br>		<!-- date of birth -->
+					<input type="date" name="DOB"  id="DOB">
+					<br>
+
+					<br>
+					<label for="Gender">Gender:</label><br>
+					<input type="radio" name="Gender" value="Female"> Female<br>
+					<input type="radio" name="Gender" value="Male"> Male<br>
+					<input type="radio" name="Gender" value="nonBinary"> Non-Binary<br>
+					<br>
+
+					<label for="Email">Email Address:</label><br>
+					<input type="email" name="Email" id="Email">
+					<br>
+
+					<label for="Telephone">Telephone:</label><br>
+					<input type="tel" name="Telephone" id="Telephone">
+					<br>
+					
+					<label for="photoLink">Link to Profile Photo</label><br>
+					<input type="url" name="photoLink"  id="photoLink">
+					<br>
+
+
+
+				</fieldset>
+
+
+				<fieldset>
+					<legend>About You</legend>
+
+					<label for="clientLikes">Likes:</label><br>
+					<textarea name="clientLikes"  id="clientLikes" rows="5" cols="30"></textarea>
+					<br>
+					<br>
+
+					<label for="clientDisLikes">Dislikes:</label><br>
+					<textarea name="clientDisLikes"  id="clientDisLikes" rows="5" cols="30"></textarea>
+					<br>
+					<br>
+
+					<label for="clientInto">I'm Into:</label><br>
+					<input type="checkbox" name="condition1" value="walksOnBeach"> Long Walks on the Beach<br>
+					<input type="checkbox" name="condition2" value="candleDinner"> Candlelight Dinners<br>
+					<input type="checkbox" name="condition3" value="swiftKicks"> Swift Kicks in the Ass<br>
+					<input type="checkbox" name="condition4" value="shortWalks"> Short Walks in a Construction Area<br>
+					<input type="checkbox" name="condition4" value="goatRodeo"> Goat Rodeos<br>
+					<br>
+
+					<label for="mostLike">I Am Most Like a:</label><br>
+					<input type="radio" name="mostLike" value="Unicorn" checked> Unicorn<br>
+					<input type="radio" name="mostLike" value="Starfish"> Starfish<br>
+					<input type="radio" name="mostLike" value="honeyBadger"> Honey Badger<br>
+					<input type="radio" name="mostLike" value="Marmot"> Marmot<br>
+					<input type="radio" name="mostLike" value="Liger"> Liger<br>
+					<br>
+
+				</fieldset>
+
+				<fieldset>
+					<legend>What Are You Looking For?</legend>
+					
+					<br>
+					<label for="seekingGender">Gender You Are Seeking:</label><br>
+					<input type="radio" name="seekingGender" value="Female"> Female<br>
+					<input type="radio" name="seekingGender" value="Male"> Male<br>
+					<input type="radio" name="seekingGender" value="nonBinary"> Non-Binary<br>
+					<br>
+
+					<br>
+					<label for="seekingAgeRange">Age Ranges You Are Seeking:</label><br>
+					<input type="checkbox" name="condition1" value="for18to22"> 18 to 22<br>
+					<input type="checkbox" name="condition1" value="for22to25"> 22 to 25<br>
+					<input type="checkbox" name="condition1" value="for25to35"> 25 to 35<br>
+					<input type="checkbox" name="condition1" value="for35to45"> 35 to 45<br>
+					<input type="checkbox" name="condition1" value="for45to55"> 45 to 55<br>
+					<input type="checkbox" name="condition1" value="for55+">  55+<br>
+
+					<br>
+					<label for="seekingLikesKeywords">Likes Keywords to Match:</label><br>
+					<textarea name="seekingLikesKeywords"  id="seekingLikesKeywords" rows="5" cols="30"></textarea>
+					<br>
+					<br>
+
+					<br>
+					<label for="seekingDislikesKeywords">Dislikes Keywords to Match:</label><br>
+					<textarea name="seekingDislikesKeywords"  id="seekingDislikesKeywords" rows="5" cols="30"></textarea>
+					<br>
+					<br>
+
+				</fieldset>
+
+					<br>
+					<input type="submit" value="Submit">
+					<br>
+
+
+					
+
+
+		</main>
+
+
+		<footer>
+			<p> 2017 &copy; The Lovelies</p>
+		    <div class="social">
+		        <ul>
+		            <li><a href="#" target="_blank"><img src="../img/facebook.png" alt=""></a></li>
+		            <li><a href="#" target="_blank"><img src="../img/twitter.png" alt=""></a></li>
+		            <li><a href="#" target="_blank"><img src="../img/plus.png" alt=""></a></li>
+		            <li><a href="#" target="_blank"><img src="../img/youtube.png" alt=""></a></li>
+		            <li id="pinterest"><a href="#" target="_blank"><img src="../img/pinterest.png" alt=""></a></li>
+		        </ul>
+		    </div>
+
+		</footer>
+
+
+
+
+	</body>
 </html>
