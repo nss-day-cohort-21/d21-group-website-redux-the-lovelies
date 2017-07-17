@@ -55,10 +55,10 @@ nav{
     /*width: 100%;*/
 }
 
-.navbar-child {
-    display: flex;
-    justify-content: space-around;
-}
+/*.navbar-child {*/
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+/*}*/
 
 nav ul li {
     margin-right: 1em;
@@ -71,39 +71,34 @@ nav ul li {
 
 /*}*/
 
-/*.logo {*/
-    /*width: 25%;*/
-/*}*/
-/*nav a:visited, a:link{*/
-    /*text-decoration: none;*/
-    /*color: black;*/
-/*}*/
+.logo {
+    width: 25%;
+}
+nav a:visited {
+    text-decoration: none;
+    color: black;
+}
 
-/*nav a:hover{*/
-    /*color: black;*/
-    /*text-decoration: underline;*/
-/*}*/
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
 
-/*nav a:active{*/
-    /*color: black;*/
-    /*text-decoration: underline;*/
-/*}*/
-/*nav a {*/
-    /*padding: 4px 10px;*/
-/*}*/
+nav a:active{
+    background-color: purple;
+    text-decoration: underline;
+}
 
-/*#current {*/
-    /*background-color: #6cc2a3;*/
-    /*border-radius: 15px;*/
-    /*padding: 4px 10px;*/
-/*}*/
+nav a {
+    padding: 4px 10px;
+}
 
+#current {
+    background-color: #FFC0CB;
+    border-radius: 15px;
+    padding: 4px 10px;
+}
 
-/*#current {*/
-    /*background-color: #6cc2a3;*/
-    /*border-radius: 15px;*/
-    /*padding: 4px 10px;*/
-/*}
 
 
 
@@ -281,6 +276,15 @@ footer p {
      margin: 1em;
 }
 
+/*************** Matches tab ****************/
+.matches{
+    box-shadow: 2px 2px 14px 0px;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: lightblue;
+    font-size: 115%;
+}
+
 
 
 
@@ -338,6 +342,7 @@ fieldset {
     display: flex;
     -webkit-flex-wrap:wrap;
     flex-wrap:wrap;
+    margin: 20px;
 }
 
 .profileDivLeft {
@@ -348,4 +353,9 @@ fieldset {
 .profileDivRight {
     width: 35%;
     min-width: 220px;
+}
+
+input[type=submit] {
+     font-size: 2em;
+     margin: 20px 40% 0 40%;
 }
