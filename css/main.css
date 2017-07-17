@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
+    width: 90%;
 }
 
 /*.logo {*/
@@ -38,7 +39,7 @@ nav{
     display: flex;
     justify-content: space-around;
     flex-shrink: 0;
-    width: 50%;
+    width: 70%;
 }
 
 
@@ -210,7 +211,7 @@ footer h6 {
 }
 
 
-}
+
 
 /*********** PROFILE PAGE STYLES **************/
 
