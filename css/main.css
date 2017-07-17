@@ -189,21 +189,30 @@ footer h6 {
 }
 
 
+/*********** PROFILE PAGE STYLES **************/
+
+form {
+    font-family: 'Roboto', 'Shrikhand', sans-serif;
 }
 
-/*********** PROFILE PAGE STYLES **************/
+form legend {
+    font-size: 1.25em;
+}
 
 .profileFlexContainer {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-wrap:wrap;
     flex-wrap:wrap;
+
 }
 
 .profileDivLeft {
     width: 35%;
+    min-width: 220px;
 }
 
 .profileDivRight {
     width: 35%;
+    min-width: 220px;
 }
