@@ -3,25 +3,25 @@ let datingList = [
         image: "img/stevebrule.jpg",
         name: " Dr. Steve Brule",
         age: " 46",
-        description:" Dating is good for your health!"
+        description:" Dating is good for your health! I'm just a guy with a really cool uncle. Can't find a date to the prom? Just bring your sister ya dingus!"
     },
     {
         image: "img/Donny.jpg",
         name: " Donny",
         age: " 37",
-        description:" When it comes to dating, I'm out of my element. Let's go bowling."
+        description:" When it comes to dating, I'm out of my element. Who wants to go bowling?"
     },
     {
         image: "img/Urkel.jpg",
         name: " Steven \"Urk Man\" Urkel",
         age: " 19",
-        description:" Did I do that?"
+        description:" Did I do that? I know that I'm not worthy of you, but I just can't help loving you. It's like wanting to touch a star... you know you'll never reach it, but you've just gotta keep trying."
     },
     {
         image: "img/Lindsay.jpg",
         name: " Lindsay Lohan",
         age: " 28",
-        description:" Dating me is like taking crack."
+        description:" I'm honestly only on here to find a new drug dealer."
     },
     {
         image: "img/Lorraine.jpg",
@@ -33,7 +33,7 @@ let datingList = [
         image: "img/Karlor.jpg",
         name: " Karlor the Barbarian",
         age: " 156",
-        description:" My human name is Steve, but in the World of Warcraft I go by Karlor the Barbarian of the Forzen North."
+        description:" My human name is Steve, but in the World of Warcraft I go by Karlor the Barbarian of the Frozen North. I am 8ft tall, with angel wings, but also demon horns. Message me in game please."
     },
 ];
 

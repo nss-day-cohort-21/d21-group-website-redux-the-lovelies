@@ -192,7 +192,7 @@ footer p {
 }
 
 .card {
-	max-width: 30%;
+	max-width: 20%;
 	min-width: 300px;
 	max-height: 400px;
 	background-color: pink;
@@ -206,16 +206,20 @@ footer p {
 
 .card-images {
     max-width: 100%;
-    border-radius: 100%;
+    border-radius: 50%;
     border: 5px solid black;
+    margin: 2em;
+    height: 200px;
+    width: 200px;
+    margin-left: 15%;
 }
 
 .dateBtn {
-    float: right; 
+    float: right;
     padding: 1em;
     margin-right: 1em;
     margin-bottom: 1em;
-    background-color: gray;
+    background-color:lightblue;
 }
 
 .dateBtn a {
