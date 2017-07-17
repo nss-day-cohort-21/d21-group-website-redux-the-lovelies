@@ -72,39 +72,34 @@ nav ul li {
 
 /*}*/
 
-/*.logo {*/
-    /*width: 25%;*/
-/*}*/
-/*nav a:visited, a:link{*/
-    /*text-decoration: none;*/
-    /*color: black;*/
-/*}*/
+.logo {
+    width: 25%;
+}
+nav a:visited {
+    text-decoration: none;
+    color: black;
+}
 
-/*nav a:hover{*/
-    /*color: black;*/
-    /*text-decoration: underline;*/
-/*}*/
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
 
-/*nav a:active{*/
-    /*color: black;*/
-    /*text-decoration: underline;*/
-/*}*/
-/*nav a {*/
-    /*padding: 4px 10px;*/
-/*}*/
+nav a:active{
+    background-color: purple;
+    text-decoration: underline;
+}
 
-/*#current {*/
-    /*background-color: #6cc2a3;*/
-    /*border-radius: 15px;*/
-    /*padding: 4px 10px;*/
-/*}*/
+nav a {
+    padding: 4px 10px;
+}
 
+#current {
+    background-color: #6cc2a3;
+    border-radius: 15px;
+    padding: 4px 10px;
+}
 
-/*#current {*/
-    /*background-color: #6cc2a3;*/
-    /*border-radius: 15px;*/
-    /*padding: 4px 10px;*/
-/*}
 
 
 
