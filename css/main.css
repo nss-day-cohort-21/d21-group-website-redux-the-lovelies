@@ -119,6 +119,26 @@ footer h6 {
 }
 
 #pinterest{
+    padding-top: 15px;}
+
+
+
+/**********CONTACT PAGE******************/
+
+
+#address-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+#map {
+    width: 60%;
+    height: 400px;
+    background-color: grey;
+    border: none;
+    border-radius: 25px;
     padding-top: 15px;
 }
 
