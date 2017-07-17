@@ -2,9 +2,153 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Lowered Expectations</title>
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Shrikhand" rel="stylesheet">
+
+
 </head>
+
 <body>
+<header>
+    <nav>
+
+
+        <ul class="navbar-flex-container">
+            <li class="item-1><a " href="index.html"><img class="logo" src="../img/loweredExpectations.png" alt="Logo"></a></li>
+            <li class="navbar-child"><a href="../index.html"></a>Home</li>
+            <li class="navbar-child"><a href="../pages/about.html"></a>About</li>
+            <li class="navbar-child"><a href="../pages/profile.html"></a>Profile</li>
+            <li class="navbar-child"><a href="../pages/contact.html"></a>Contact</li>
+            <li class="navbar-child"><a href="../pages/warning.html"></a>Help Me!</li>
+        </ul>
+
+
+    </nav>
+</header>
+<div>
+    <img src="" alt="">
+</div>
+<main class="contact-main-container">
+    <div id="address-container">
+        <div id="address">
+            <h3>Contact Us</h3>
+            <p>4732 8th Ave S.<br>Nashville, TN  37204<br> 615.555.5555<p>
+            <p>Mon-Sat | 10AM-6PM<br>Sun | 12-6PM</div>
+        <div id="map"></div>
+    </div>
+
+
+</main>
+
+
+<footer>
+    <p> © 2017  The Lovelies</p>
+    <div class="social">
+        <ul>
+            <li><a href="#" target="_blank"><img src="../img/facebook.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="../img/twitter.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="../img/plus.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="../img/youtube.png" alt=""></a></li>
+            <li id="pinterest"><a href="#" target="_blank"><img src="../img/pinterest.png" alt=""></a></li>
+        </ul>
+    </div>
+
+</footer>
+<script>
+function initMap() {
+// Styles a map in night mode.
+var map = new google.maps.Map(document.getElementById('map'), {
+center: {lat: 36.126029, lng: -86.719271},
+zoom: 8,
+styles: [
+{elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+{elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+{elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+{
+featureType: 'administrative.locality',
+elementType: 'labels.text.fill',
+stylers: [{color: '#d59563'}]
+},
+{
+featureType: 'poi',
+elementType: 'labels.text.fill',
+stylers: [{color: '#d59563'}]
+},
+{
+featureType: 'poi.park',
+elementType: 'geometry',
+stylers: [{color: '#263c3f'}]
+},
+{
+featureType: 'poi.park',
+elementType: 'labels.text.fill',
+stylers: [{color: '#6b9a76'}]
+},
+{
+featureType: 'road',
+elementType: 'geometry',
+stylers: [{color: '#38414e'}]
+},
+{
+featureType: 'road',
+elementType: 'geometry.stroke',
+stylers: [{color: '#212a37'}]
+},
+{
+featureType: 'road',
+elementType: 'labels.text.fill',
+stylers: [{color: '#9ca5b3'}]
+},
+{
+featureType: 'road.highway',
+elementType: 'geometry',
+stylers: [{color: '#746855'}]
+},
+{
+featureType: 'road.highway',
+elementType: 'geometry.stroke',
+stylers: [{color: '#1f2835'}]
+},
+{
+featureType: 'road.highway',
+elementType: 'labels.text.fill',
+stylers: [{color: '#f3d19c'}]
+},
+{
+featureType: 'transit',
+elementType: 'geometry',
+stylers: [{color: '#2f3948'}]
+},
+{
+featureType: 'transit.station',
+elementType: 'labels.text.fill',
+stylers: [{color: '#d59563'}]
+},
+{
+featureType: 'water',
+elementType: 'geometry',
+stylers: [{color: '#17263c'}]
+},
+{
+featureType: 'water',
+elementType: 'labels.text.fill',
+stylers: [{color: '#515c6d'}]
+},
+{
+featureType: 'water',
+elementType: 'labels.text.stroke',
+stylers: [{color: '#17263c'}]
+}
+]
+});
+}
+</script>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi0kecWCJKdi2ljnYUzv8j0x4U0MNy5wg&callback=initMap">
+</script>
+
 
 </body>
 </html>
