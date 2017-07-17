@@ -166,26 +166,11 @@ footer h6 {
     -webkit-flex-wrap:wrap;
     flex-wrap:wrap;
 }
-/*   
-}*/
-
-    /*display -webkit-flex;
-    display: flex;
-    flex-direction: -webkit-flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-}*/
 
 .profileDivLeft {
     width: 35%;
-    /*float: left;*/
-    border: 1px solid black;
-    /*text-align: left;*/
 }
 
 .profileDivRight {
     width: 35%;
-    /*float: right;*/
-    border: 1px solid black;
-    /*text-align: left;*/
 }
