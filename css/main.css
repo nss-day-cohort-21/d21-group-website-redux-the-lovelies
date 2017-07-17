@@ -62,7 +62,6 @@ nav{
 
 nav ul li {
     margin-right: 1em;
-
 }
 
 /*.item-1 {*/
@@ -163,6 +162,19 @@ footer p {
 .ml-contentContainer {
   margin: 0;
   text-align: center;
+  background: white;
+}
+
+#quotes {
+  width: 80%;
+  height: 50px;
+  background: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ml-contentContainer p {
@@ -174,12 +186,12 @@ footer p {
   display: flex;
   width: 100%;
   height: 450px;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .ml-banner-pic {
   width: 100%;
-  background-image: url(../img/average-people-banner.png);
+  background-image: url(../img/average-people-banner-copy.png);
   background-repeat: no-repeat;
 }
 
@@ -188,10 +200,16 @@ footer p {
   width: 100%;
 }
 
+#ml-main-container {
+  background: white;
+}
+
 #ml-warning-div {
   display: flex;
   width: 100%;
   justify-content: center;
+  background: white;
+  margin: 50px 0;
 }
 
 #ml-help-button {
