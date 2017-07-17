@@ -190,3 +190,20 @@ footer h6 {
 
 
 }
+
+/*********** PROFILE PAGE STYLES **************/
+
+.profileFlexContainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+
+.profileDivLeft {
+    width: 35%;
+}
+
+.profileDivRight {
+    width: 35%;
+}
