@@ -82,7 +82,7 @@ nav{
     /*background-color: #6cc2a3;*/
     /*border-radius: 15px;*/
     /*padding: 4px 10px;*/
-/*}*/
+/*}
 
 
 
@@ -153,6 +153,19 @@ footer h6 {
   text-align: justify;
 }
 
+.ml-banner {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  justify-content: flex-end;
+}
+
+.ml-banner-pic {
+  width: 100%;
+  background-image: url(../img/average-people-banner.png);
+  background-repeat: no-repeat;
+}
+
 .ml-banner-pic img {
   max-height: 500px;
   width: 100%;
@@ -173,6 +186,7 @@ footer h6 {
   background: rgb(255, 0, 0);
   cursor: pointer;
   box-shadow: inset 0 0 10px #000;
+}
 
 /******** CARD STYLING ********/
 
