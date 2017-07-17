@@ -271,11 +271,14 @@ footer h6 {
 
 form {
     font-family: 'Roboto', 'Shrikhand', sans-serif;
-    background-color: #f2f2f2;
 }
 
 form legend {
     font-size: 1.25em;
+}
+
+fieldset {
+    border: 3px solid black;
 }
 
 .profileFlexContainer {
@@ -283,7 +286,6 @@ form legend {
     display: flex;
     -webkit-flex-wrap:wrap;
     flex-wrap:wrap;
-
 }
 
 .profileDivLeft {
