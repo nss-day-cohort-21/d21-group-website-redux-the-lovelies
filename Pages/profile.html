@@ -37,7 +37,7 @@
 					<input type="text" name="firstName"  id="firstName">
 					<br>
 
-					<label for="middleName">Middle Namel:</label><br>
+					<label for="middleName">Middle Name:</label><br>
 					<input type="text" name="middleName" id="middleName">
 					<br>
 
@@ -118,12 +118,43 @@
 
 				<fieldset>
 					<legend>What Are You Looking For?</legend>
+					
+					<br>
+					<label for="seekingGender">Gender You Are Seeking:</label><br>
+					<input type="radio" name="seekingGender" value="Female"> Female<br>
+					<input type="radio" name="seekingGender" value="Male"> Male<br>
+					<input type="radio" name="seekingGender" value="nonBinary"> Non-Binary<br>
+					<br>
+
+					<br>
+					<label for="seekingAgeRange">Age Ranges You Are Seeking:</label><br>
+					<input type="checkbox" name="condition1" value="for18to22"> 18 to 22<br>
+					<input type="checkbox" name="condition1" value="for22to25"> 22 to 25<br>
+					<input type="checkbox" name="condition1" value="for25to35"> 25 to 35<br>
+					<input type="checkbox" name="condition1" value="for35to45"> 35 to 45<br>
+					<input type="checkbox" name="condition1" value="for45to55"> 45 to 55<br>
+					<input type="checkbox" name="condition1" value="for55+">  55+<br>
+
+					<br>
+					<label for="seekingLikesKeywords">Likes Keywords to Match:</label><br>
+					<textarea name="seekingLikesKeywords"  id="seekingLikesKeywords" rows="5" cols="30"></textarea>
+					<br>
+					<br>
+
+					<br>
+					<label for="seekingDislikesKeywords">Dislikes Keywords to Match:</label><br>
+					<textarea name="seekingDislikesKeywords"  id="seekingDislikesKeywords" rows="5" cols="30"></textarea>
+					<br>
+					<br>
 
 				</fieldset>
 
 					<br>
 					<input type="submit" value="Submit">
 					<br>
+
+
+					
 
 
 		</main>
