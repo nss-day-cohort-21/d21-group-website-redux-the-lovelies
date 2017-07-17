@@ -16,43 +16,65 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
+    width: 90%;
 }
 
-.logo {
-    width: 25%;
-}
+/*.logo {*/
+    /*width: 25%;*/
+/*}*/
 
 
 
 /*************NAV STYLES********************/
 
 nav{
-    width: 90%;
+    width: 80%;
     background-color: white;
     border-bottom: 1px slategrey solid;
     margin: 0 auto;
-    padding: 20px 10px 20px 0;
+    /*padding: 20px 10px 20px 0;*/
 }
 
-#last-nav{
-    padding-right: 40px;
+#logo {
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 0;
+    width: 70%;
 }
+
+
 
 .navbar-flex-container {
     display: flex;
+    /*flex-shrink: 0;*/
     list-style-type: none;
-    justify-content: flex-start;
-    /*height:60px;*/
-    align-items: center;
-    margin: 0;
+    justify-content: space-around;
+    /*!*height:60px;*!*/
+    /*align-items: center;*/
+    /*margin: 0;*/
+    /*width: 100%;*/
 }
 
-.item-1 {
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
+.navbar-child {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin-right: 1em;
 
 }
+
+/*.item-1 {*/
+    /*display:flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+
+/*}*/
+
+/*.logo {*/
+    /*width: 25%;*/
+/*}*/
 /*nav a:visited, a:link{*/
     /*text-decoration: none;*/
     /*color: black;*/
@@ -109,7 +131,7 @@ footer ul {
     list-style-type: none;
 }
 
-footer h6 {
+footer p {
     font-size: 1em;
     margin-left: 2em;
 }
@@ -134,7 +156,7 @@ footer h6 {
 }
 
 #map {
-    width: 60%;
+    width: 55%;
     height: 400px;
     background-color: grey;
     border: none;
@@ -200,7 +222,7 @@ footer h6 {
 }
 
 .card {
-	max-width: 30%;
+	max-width: 20%;
 	min-width: 300px;
 	max-height: 400px;
 	background-color: pink;
@@ -214,9 +236,98 @@ footer h6 {
 
 .card-images {
     max-width: 100%;
-    height: auto;
-    max-height: 40%;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin: 2em;
+    height: 200px;
+    width: 200px;
+    margin-left: 15%;
+}
+
+.dateBtn {
+    float: right;
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    background-color:lightblue;
+}
+
+.dateBtn a {
+    text-decoration: none;
+}
+.card-header {
+    margin: 1em;
+}
+
+.card-paragraph {
+     margin: 1em;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********** PROFILE PAGE STYLES **************/
+
+form {
+    font-family: 'Roboto', 'Shrikhand', sans-serif;
+}
+
+form legend {
+    font-size: 1.25em;
+}
+
+fieldset {
+    border: 3px solid black;
+}
+
+.profileFlexContainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+
+.profileDivLeft {
+    width: 35%;
+    min-width: 220px;
+}
+
+.profileDivRight {
+    width: 35%;
+    min-width: 220px;
 }

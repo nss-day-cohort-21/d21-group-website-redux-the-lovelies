@@ -12,26 +12,41 @@
 	<body>
 	<header>
 	    <nav>
-	        <ul class="navbar-flex-container">
-						<li class="item-1"><a href="index.html"><img class="logo" src="../img/loweredExpectations.png" alt="Logo"></a></li>
-						<li class="navbar-child"><a href="../index.html">Home</a></li>
-						<li class="navbar-child"><a href="about.html">About</a></li>
-						<li class="navbar-child"><a href="profile.html">Profile</a></li>
-						<li class="navbar-child"><a href="contact.html">Contact</a></li>
-						<li class="navbar-child"><a href="warning.html">Help Me!</a></li>
 
 
-	    </nav>
+        <ul class="navbar-flex-container">
+
+            <li class="item-1><a "href="index.html"><img  id="logo" src="../img/loweredExpectations.png" alt="Logo"></a></li>
+
+
+            <li class="navbar-child"><a href="../index.html">Home</a></li>
+            <li class="navbar-child"><a href="about.html">About</a></li>
+            <li class="navbar-child"><a href="profile.html">Profile</a></li>
+            <li class="navbar-child"><a href="contact.html">Contact</a></li>
+            <li class="navbar-child"><a href="warning.html">Help Me!</a></li>
+
+        </ul>
+
+    	</nav>
+
 	</header>
 
 	<div>
 	    <img src="" alt="">
 	</div>
 
-	<main class="main-container">
+	<main class="main-container" style="background-color: white">
 
-				<fieldset>
-					<legend>Personal Information</legend>
+		<h2>Please fill out your profile!</h2>
+		
+		<form>
+				<fieldset>	
+				<legend>Personal Information</legend>
+
+				<div class="profileFlexContainer">
+
+					<div class="profileDivLeft">
+
 					<label for="firstName">First Name:</label><br>
 					<input type="text" name="firstName"  id="firstName">
 					<br>
@@ -48,15 +63,20 @@
 					<input type="text" name="City"  id="City">
 					<br>
 
-					<label for="State">State:</label><br>             <!-- limit chars to two -->
+					<label for="State">State:</label><br>            
 					<input type="text" maxlength="2" name="State"  id="State">
 					<br>
 
-					<label for="zipCode">Zip:</label><br>             <!-- limit chars to five -->
+					<label for="zipCode">Zip:</label><br>             
 					<input type="text" maxlength="5" name="zipCode"  id="zipCode">
 					<br>
 
-					<label for="DOB">Date of Birth:</label><br>		<!-- date of birth -->
+
+					</div>
+
+					<div class="profileDivRight">
+						
+					<label for="DOB">Date of Birth:</label><br>		
 					<input type="date" name="DOB"  id="DOB">
 					<br>
 
@@ -79,13 +99,21 @@
 					<input type="url" name="photoLink"  id="photoLink">
 					<br>
 
+					</div>
 
+				</div>
 
 				</fieldset>
 
+				<br>
 
 				<fieldset>
-					<legend>About You</legend>
+
+				<legend>About You</legend>
+
+				<div class="profileFlexContainer">
+
+					<div class="profileDivLeft">
 
 					<label for="clientLikes">Likes:</label><br>
 					<textarea name="clientLikes"  id="clientLikes" rows="5" cols="30"></textarea>
@@ -96,6 +124,10 @@
 					<textarea name="clientDisLikes"  id="clientDisLikes" rows="5" cols="30"></textarea>
 					<br>
 					<br>
+
+					</div>
+
+					<div class="profileDivRight">
 
 					<label for="clientInto">I'm Into:</label><br>
 					<input type="checkbox" name="condition1" value="walksOnBeach"> Long Walks on the Beach<br>
@@ -113,10 +145,19 @@
 					<input type="radio" name="mostLike" value="Liger"> Liger<br>
 					<br>
 
+					</div>
+
 				</fieldset>
 
+				<br>
+
 				<fieldset>
-					<legend>What Are You Looking For?</legend>
+
+				<legend>What Are You Looking For?</legend>
+					
+					<div class="profileFlexContainer">
+
+					<div class="profileDivLeft">
 
 					<br>
 					<label for="seekingGender">Gender You Are Seeking:</label><br>
@@ -134,6 +175,10 @@
 					<input type="checkbox" name="condition1" value="for45to55"> 45 to 55<br>
 					<input type="checkbox" name="condition1" value="for55+">  55+<br>
 
+					</div>
+
+					<div class="profileDivRight">
+
 					<br>
 					<label for="seekingLikesKeywords">Likes Keywords to Match:</label><br>
 					<textarea name="seekingLikesKeywords"  id="seekingLikesKeywords" rows="5" cols="30"></textarea>
@@ -146,15 +191,17 @@
 					<br>
 					<br>
 
-				</fieldset>
+					</div>
 
+				</fieldset>
+	
+				<div>
 					<br>
 					<input type="submit" value="Submit">
 					<br>
+				</div>
 
-
-
-
+		</form>		
 
 		</main>
 
