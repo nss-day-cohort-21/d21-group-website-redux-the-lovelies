@@ -3,6 +3,6 @@ let quotes = ["Your family only loves you because they have to.", "You only get 
 let postArea = document.getElementById("quotes");
 
 setInterval(function() {
-  let randomNum = Math.floor(Math.random()*6);
-  postArea.innerHTML = `<p>Inspirational Quote: ${quotes[randomNum]}</p>`;
-}, 4000);
+  let randomNum = Math.floor(Math.random()*quotes.length);
+  postArea.innerHTML = `<p>${quotes[randomNum]}</p>`;
+}, 5000);
