@@ -177,6 +177,10 @@ footer p {
   margin-right: auto;
 }
 
+#quotes p {
+  text-align: center;
+}
+
 .ml-contentContainer p {
   margin: 1em 6em;
   text-align: justify;
@@ -191,6 +195,7 @@ footer p {
 
 .ml-banner-pic {
   width: 100%;
+  flex-shrink: 0;
   background-image: url(../img/average-people-banner-copy.png);
   background-repeat: no-repeat;
 }
@@ -198,6 +203,10 @@ footer p {
 .ml-banner-pic img {
   max-height: 500px;
   width: 100%;
+}
+
+.ml-insp-quote h4 {
+  text-align: center;
 }
 
 #ml-main-container {
