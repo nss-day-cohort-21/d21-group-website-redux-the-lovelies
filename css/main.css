@@ -38,11 +38,12 @@ nav{
 #logo {
     display: flex;
     justify-content: space-around;
-    flex-shrink: 0;
-    width: 70%;
+    width: 100%;
 }
 
-
+.item-1 {
+    flex-shrink: 0;
+}
 
 .navbar-flex-container {
     display: flex;
@@ -52,7 +53,9 @@ nav{
     /*!*height:60px;*!*/
     align-items: center;
     /*margin: 0;*/
+    flex-wrap: wrap;
     /*width: 100%;*/
+
 }
 
 /*.navbar-child {*/
@@ -120,6 +123,11 @@ i {
     width: 50%;
 }
 
+footer {
+
+    justify-content: space-around;
+
+}
 footer ul {
     display: flex;
     list-style-type: none;
